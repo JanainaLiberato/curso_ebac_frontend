@@ -11,13 +11,23 @@ const numeroB = parseFloat (document.getElementById('campo-b').value);
 function comparaNumero(numeroA, numeroB){
     if (numeroB > numeroA){
         alert('Formulário válido: Valor de B é maior que A');
-        return true;
+        return true;    
+
+    } else if(numeroB == numeroA){
+        alert('Erro: Valor de a é igual B');
+        return false;    
+
+
     } else {
-        alert('Erro: Valor de A é maior que B');
-        return false;
+    alert('Erro: Valor de A é maior que B');
+    return false;
     }
+
+    
 }
-formEValido = comparaNumero(numeroA, numeroB)
+form.reset ();
+formEValido = comparaNumero(numeroA, numeroB);
+    
 });
 
 
