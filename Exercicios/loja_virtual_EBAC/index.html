@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>EBAC Shoes</title>
+    <link rel="icon" href="./imagens/tenis-icone.png" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1> EBAC Shoes</h1>
+        <div class="botao-menu">
+            <button type="submit">Abrir menu</button>
+
+        </div>
+        <nav>
+            <ul class="menu">
+                <li> 
+                    <a href="#about">Sobre a Loja</a>
+                </li>
+                <li> 
+                    <a href="#">Produtos</a>
+                </li>
+            </ul>
+        </nav>
+        </div>        
+    </header>
+        <div class="conteudo">              
+            <section id="sobre-a-loja">
+                <div class="container-flex">        
+                    <img class="foto-principal" src="./imagens/fachada-loja.jpg" alt="fachada-da-loja">
+                    <div class="sobre">
+                        <h2>Sobre a EBAC Shoes</h2>                       
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia at molestias aperiam placeat libero, corrupti suscipit distinctio reiciendis repellat alias ipsam architecto nesciunt neque voluptatum mollitia! Velit, quos.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quia at molestias aperiam placeat libero, corrupti suscipit distinctio reiciendis repellat alias ipsam architecto nesciunt neq voluptatum mollitia! Velit, quos.</p>             
+                    </div>
+                </div>            
+            </section>
+            <section>
+                <div class="produtos">
+                    <h2>Produtos</h2>
+                    <ul class="container-flex lista-produtos">  
+                        <li>
+                            <img src="./imagens/adidas.jpg" alt="tenis-adidas">
+                            <h3>Tênis Adidas modelo Xyz</h3>
+                            <p>
+                                Disponível nos tamanhos 34 ao 39
+                            </p>  
+                            <button type="button">Adicionar ao carrinho</button>
+                        </li>
+                        <li>
+                            <img src="./imagens/nike.jpg" alt="tenis-nike">
+                            <h3>Tênis Nike modelo Xyz</h3>
+                            <p>
+                                Disponível nos tamanhos 34 ao 39
+                            </p>  
+                            <button type="button">Adicionar ao carrinho</button>
+                        </li>
+                        <li>
+                            <img src="./imagens/vans.jpg" alt="tenis-vans">
+                            <h3>Tênis Vans modelo Xyz</h3>
+                            <p>
+                                Disponível nos tamanhos 34 ao 39
+                            </p>  
+                            <button type="button">Adicionar ao carrinho</button>
+                        </li>
+                        <li>
+                            <img src="./imagens/puma.jpg" alt="tenis-puma">
+                            <h3>Tênis Puma modelo Xyz</h3>
+                            <p>
+                                Disponível nos tamanhos 34 ao 39
+                            </p>  
+                            <button type="button">Adicionar ao carrinho</button>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    
+    <footer>
+        <div class="container">
+            <p> 2023 &copy; EBAC Motors - Todos os direitos Reservados</p>
+            <ul class="container-flex">
+                <li>
+                    <a href="#">
+                        <img src="./icones/facebook.png" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icones/youtube.png" alt="youtube">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready (function(){
+          $('.botao-menu button').click(function(){
+            $('.menu').slideToggle();
+          })
+        })
+    </script>
+    
+</body>
+</html>
