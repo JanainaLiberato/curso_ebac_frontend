@@ -119,7 +119,12 @@
         font-weight: bold;
         color: #3f3e3e;
         padding: 18px;
-        
+    }
+
+    footer .container-flex{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     footer li{
@@ -129,7 +134,11 @@
 
     footer li img{
         height: 32px;        
-    }      
+    }  
+    
+    .botao-menu{
+        display: none;
+     }
 
     @media screen and (max-width:640px){
 
@@ -219,9 +228,7 @@
             display: none;
         }
         
-    }
-
-    
+    }    
     
     }
 
